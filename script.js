@@ -1,3 +1,8 @@
+document.getElementById("btn").addEventListener("click", function () {
+  // Redirect to another page
+  window.location.href = "https://pratik6001.github.io/page1/";
+});
+
 function isMouseOverElement(event, element) {
   var rect = element.getBoundingClientRect();
   return (
